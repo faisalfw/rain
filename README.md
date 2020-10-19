@@ -21,4 +21,6 @@ server ini punya banyak drawback, seperti:
 - fitur yang sedikit di implementasi HTTP nya
 - dan lain lain
  
+![Screenshot](./rain-screenshot.png) 
+ 
 Woow, isnt that awesome!
