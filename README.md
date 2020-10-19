@@ -1,8 +1,5 @@
 # rain
 A Simple HTTP Server
-
- rain-httpserver.rb
- created by faisal w, at 2020 october
  
  simple web server yang aku namakan `rain', simple, beginner,
  static web server, cara kerjanya adalah: 
