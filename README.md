@@ -1,4 +1,4 @@
-# rain
+# Rain
 A Simple HTTP Server
  
 simple web server yang aku namakan `rain', simple, beginner,
@@ -12,8 +12,7 @@ ahan, yaitu ada modifikasi, seperti isinya di read dan di ma
 sukkan ke skeleton/template.
 
 cara menjalankanya adalah:
- 	Rain::HTTPServer.run()
-		done!
+Rain::HTTPServer.run()
 
 server ini punya banyak drawback, seperti:
 - keamanan yang parah
