@@ -52,7 +52,7 @@ module Rain
   end
 
   class HTTPServer
-    READ_BUFFER    = 4096 * 5
+    READ_BUFFER   = 4096 * 5
     HOST          = "127.0.0.1"
     PORT          = 4453
 
@@ -275,7 +275,7 @@ module Rain
         "content-type"    => nil, #
         "content-length"  => nil, #
         "connection"      => "close",
-        "last-modified"    => nil, #
+        "last-modified"   => nil, #
         "etag"            => nil, #
         "date"            => Time.now.httpdate.to_s,
       }
@@ -325,10 +325,10 @@ module Rain
         end
 
         @response_code  = 200
-        @document        = io.read
+        @document       = io.read
         @response_header["content-type"]    = MimeType.fetch(@request_obj.path)
         @response_header["content-length"]  = @document.bytesize
-        @response_header["last-modified"]    = last_modified
+        @response_header["last-modified"]   = last_modified
         @response_header["etag"]            = etag
 
         if File.extname(@request_obj.path) == '.html'
@@ -462,7 +462,7 @@ module Rain
 
     def self.prepare
       @@all_files = []
-      @@etags      = {}
+      @@etags     = {}
       scan_dir(ROOT_PUBLIC_DOCUMENT)
     end
 
