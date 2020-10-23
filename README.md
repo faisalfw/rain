@@ -1,7 +1,7 @@
 # Rain
 A Simple HTTP Server
  
-simple web server yang aku namakan `rain', simple, beginner,
+simple web server, beginner,
 static web server, cara kerjanya adalah: 
 ada direktori "root-public-document", didalamnya terdapat se
 mua resource yang mungkin klien me request nya, jika yang di
